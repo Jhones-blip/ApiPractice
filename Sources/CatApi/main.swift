@@ -1,11 +1,11 @@
 import Foundation
+import FoundationNetworking
 
-let start = Main()
+let load = Main()
 
 class Main{
     let start = CatView()
-
-    init(){
+    init() {
         start.start()
     }
 }
